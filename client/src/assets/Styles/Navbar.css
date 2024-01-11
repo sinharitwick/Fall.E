@@ -12,6 +12,7 @@
     flex-shrink: 0;
     background: #FFF;
     font-family: 'Poppins', sans-serif;
+    color: #000;
 }
 
 .navbar-container{
@@ -42,3 +43,8 @@
     margin-right: 2.5rem;
     cursor: pointer;
 }
+
+a:visited {
+    text-decoration: none;
+    color:black;
+  }

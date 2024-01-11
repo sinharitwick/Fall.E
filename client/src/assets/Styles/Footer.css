@@ -30,6 +30,7 @@
 
 .footer-lower {
     text-align: center;
+    font-weight: 100;
 }
 
 .sub-inp {
@@ -50,4 +51,5 @@
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
+    border: none;
 }

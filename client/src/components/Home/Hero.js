@@ -20,7 +20,9 @@ function Hero() {
           officiis voluptas dicta distinctio
         </div>
         <div>
-          <button className="overlay-btn">Buy Now</button>
+          <Link to='shop'>
+            <button className="overlay-btn">Buy Now</button>
+          </Link>
         </div>
       </div>
     </div>

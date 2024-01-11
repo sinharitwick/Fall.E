@@ -4,6 +4,7 @@ import userImg from '../assets/Images/user.svg'
 import searchImg from '../assets/Images/search.svg'
 import heartImg from '../assets/Images/heart.svg'
 import cartImg from '../assets/Images/cart.svg'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -14,8 +15,8 @@ function Navbar() {
             </div>
             <div className='navbar-menu'>
                 <ul>
-                    <li>Home</li>
-                    <li>Shop</li>
+                    <li><Link to='/' style={{ textDecoration:'none' }}>Home</Link></li>
+                    <li><Link to='/shop' style={{ textDecoration:'none' }}>Shop</Link></li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
