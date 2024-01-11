@@ -1,6 +1,7 @@
 import React from "react";
 import "../../assets/Styles/Hero.css";
 import Navbar from "../Navbar";
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
