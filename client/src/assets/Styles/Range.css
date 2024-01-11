@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.range-container {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.range-products {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.range-txt {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.range-img1 {
+    background: url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') lightgray 50% / cover no-repeat;
+    width: 23.8125rem;
+    height: 30rem;
+    cursor: pointer;
+}
+
+.range-img2 {
+    background: url('https://images.pexels.com/photos/3353621/pexels-photo-3353621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') lightgray 50% / cover no-repeat;
+    width: 23.8125rem;
+    height: 30rem;
+    cursor: pointer;
+}
+
+.range-img3 {
+    background: url('https://m.media-amazon.com/images/I/71uEPvLkMGL.jpg') lightgray 50% / cover no-repeat;
+    width: 23.8125rem;
+    height: 30rem;
+    cursor: pointer;
+}
+
+.range-caption {
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

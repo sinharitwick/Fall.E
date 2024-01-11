@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .navbar-box{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
     width: 90rem;
-    height: 6.25rem;
+    height: 5.25rem;
     flex-shrink: 0;
     background: #FFF;
     font-family: 'Poppins', sans-serif;
