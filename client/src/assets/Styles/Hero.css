@@ -1,0 +1,6 @@
+.hero-container {
+    position: relative;
+    background: url('../Images/hero.jpg') lightgray 50% / cover no-repeat;
+    height: 85.3vh;
+    margin-top: 6.25rem;
+}
