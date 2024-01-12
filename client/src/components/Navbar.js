@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../assets/Styles/Navbar.css'
 import userImg from '../assets/Images/user.svg'
 import searchImg from '../assets/Images/search.svg'
@@ -7,6 +7,8 @@ import cartImg from '../assets/Images/cart.svg'
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [isDropdownFocused, setIsDropdownFocused] = useState(false);
   return (
     <div className="navbar-box">
         <div className='navbar-container'>
@@ -22,7 +24,17 @@ function Navbar() {
                 </ul>
             </div>
             <div className="navbar-icons">
-                <img src={userImg} alt="" />
+                <img src={userImg} alt="" onMouseEnter={() => setIsDropdownOpen(true)} />
+                {isDropdownOpen && (
+                    <div className='dropdown-menu'
+                    onMouseEnter={() => setIsDropdownFocused(true)}
+                    onMouseLeave={() => setIsDropdownOpen(false)}>
+                        <ul>
+                            <li><button className='dropdown-btn'><Link>Login</Link></button></li>
+                            <li><button className='dropdown-btn'><Link>Signup</Link></button></li>
+                        </ul>
+                    </div>
+                )}
                 <img src={searchImg} alt="" />
                 <img src={heartImg} alt="" />
                 <img src={cartImg} alt="" />
